@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+  int radius=4;
+    const float pl =3.14;
+    double area;
+    area = pl * radius * radius ;
+    cout << "area of circle is  " << endl;
+    return 0;
+}

@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+struct student{
+int roll_no;
+string name;
+string branch;
+int marks;
+};
+int main(){
+student s1;
+
+s1.roll_no = 15;
+s1.name = "ankita";
+s1.branch ="computer";
+s1.marks = 25;
+
+cout << "roll_no:" << s1.roll_no<< endl;
+cout << "name:" << s1.name <<endl;
+cout << "branch:" << s1.branch << endl;
+cout << "marks:" << s1.marks << endl;
+return 0;
+}

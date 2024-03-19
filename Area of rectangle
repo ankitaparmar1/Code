@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+  int width  = 22 ;
+    const float pl =3.14;
+    double area;
+    area = pl * width  * width  ;
+    cout << " area of rectangle  " << endl;
+    return 0;
+}

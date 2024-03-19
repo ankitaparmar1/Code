@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int sort(int&a,int&b){
+if(a<=b){
+return a;
+return b;}
+else{int temp =a ;
+a=b;
+b=temp;
+return a;
+return b;
+}
+}
+int main()
+{
+int x=30;
+int y=20;
+cout<<"eneter the value"<<endl;
+
+return 0;
+}
